@@ -9,7 +9,7 @@ ApplicationWindow {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Hello World")
+    title: qsTr("low-can Demo")
 
     property var msgid_enu: { "call":2, "retok":3, "reterr":4, "event":5 }
     property double engineSpeed: 0.0

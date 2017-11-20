@@ -1,0 +1,13 @@
+QMAKE_DEFAULT_INCDIRS = \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/usr/include/c++/6.2.0 \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/usr/include/c++/6.2.0/x86_64-agl-linux \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/usr/include/c++/6.2.0/backward \
+    /opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/lib/x86_64-agl-linux/gcc/x86_64-agl-linux/6.2.0/include \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/usr/lib/gcc/x86_64-agl-linux/6.2.0/include \
+    /opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/lib/x86_64-agl-linux/gcc/x86_64-agl-linux/6.2.0/include-fixed \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/usr/include
+QMAKE_DEFAULT_LIBDIRS = \
+    /opt/poky-agl/4.0.2/sysroots/x86_64-aglsdk-linux/usr/lib/x86_64-agl-linux/gcc/x86_64-agl-linux/6.2.0 \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/lib \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/usr/lib/x86_64-agl-linux/6.2.0 \
+    /opt/poky-agl/4.0.2/sysroots/corei7-64-agl-linux/usr/lib

@@ -4,6 +4,7 @@
 #include <QUrlQuery>
 #include <QQmlContext>
 #include <QFont>
+#include <QDebug>
 
 int main(int argc, char *argv[])
 {
@@ -45,6 +46,7 @@ int main(int argc, char *argv[])
         QQmlContext *context = engine.rootContext();
         context->setContextProperty(QStringLiteral("bindingAddressCAN"), bindingAddressCAN);
         context->setContextProperty(QStringLiteral("bindingAddressHono"), bindingAddressHono);
+        qDebug() << bindingAddressCAN.toString();
     }
     engine.load(QUrl(QLatin1String("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())

@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" id="low-can" version="1.0">
   <name>low-can</name>
   <icon src="icon.svg"/>
-  <content src="bin/low-can" type="application/x-executable"/>
+  <content src="bin/low-can" type="application/vnd.agl.native"/>
   <description>This is a demo CAN application</description>
   <author>Qt</author>
   <license>APL 2.0</license>
